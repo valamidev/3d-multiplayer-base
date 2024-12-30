@@ -1,0 +1,15 @@
+{
+  "name": "base3dmulti-mmo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "type": "module",
+  "scripts": {
+    "client": "cd packages/client && bun run dev",
+    "server": "cd packages/server && bun run dev",
+    "build": "bun run build:server && bun run build:shared",
+    "build:server": "cd packages/server && bun run build",
+    "build:shared": "cd packages/shared && bun run build"
+  }
+}

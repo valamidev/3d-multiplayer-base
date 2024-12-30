@@ -1,0 +1,23 @@
+{
+  "name": "base3dmulti-client",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "sass": "1.64.1",
+    "typescript": "5.5.3",
+    "vite": "5.3.4"
+  },
+  "dependencies": {
+    "@babylonjs/core": "7.40.4",
+    "@babylonjs/inspector": "7.40.4",
+    "@babylonjs/loaders": "7.40.4",
+    "base3dmulti-shared": "workspace:*",
+    "eventemitter3": "^5.0.1",
+    "mitt": "^3.0.1"
+  }
+}

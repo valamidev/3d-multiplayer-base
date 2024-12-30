@@ -1,0 +1,13 @@
+{
+  "name": "base3dmulti-shared",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./src/index.ts",
+  "scripts": {
+    "build": "bun build ./src/index.ts --outdir dist",
+    "dev": "bun --watch src/index.ts"
+  },
+  "dependencies": {
+    "@types/bun": "^1.1.14"
+  }
+}

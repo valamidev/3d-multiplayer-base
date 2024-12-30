@@ -1,0 +1,14 @@
+{
+  "name": "base3dmulti-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "bun build ./src/server.ts --outdir dist",
+    "dev": "bun --watch src/server.ts"
+  },
+  "dependencies": {
+    "base3dmulti-shared": "workspace:*",
+    "@types/bun": "^1.1.14",
+    "mitt": "^3.0.1"
+  }
+}

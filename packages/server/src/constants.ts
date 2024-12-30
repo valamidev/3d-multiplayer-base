@@ -1,0 +1,7 @@
+export const DEFAULT_PORT = 6969;
+
+export const DISCONNECT_IDLE_TIME = 5000;
+
+export const SESSIONS_STATE_UPDATE_INTERVAL = 1000;
+
+export const DEFAULT_LATENCY = 16;
