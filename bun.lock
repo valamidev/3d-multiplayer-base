@@ -3,7 +3,7 @@
   "workspaces": {
     "": {},
     "packages/client": {
-      "name": "bun-mmo-client",
+      "name": "base3dmulti-client",
       "version": "0.0.1",
       "dependencies": {
         "@babylonjs/core": "7.40.4",
@@ -159,6 +159,8 @@
 
     "babylonjs-gltf2interface": ["babylonjs-gltf2interface@7.39.1", "", {}, "sha512-87YGQgdlHIu1ARa/HEP43PPNgPjHlBQ3vHYxSMp0CzsBbuRYxm/WmG7T8uuuODhmXfINpopPtyTxMjyjQlmZKw=="],
 
+    "base3dmulti-client": ["base3dmulti-client@workspace:packages/client", { "dependencies": { "@babylonjs/core": "7.40.4", "@babylonjs/inspector": "7.40.4", "@babylonjs/loaders": "7.40.4", "base3dmulti-shared": "packages/shared", "eventemitter3": "^5.0.1", "mitt": "^3.0.1" }, "devDependencies": { "sass": "1.64.1", "typescript": "5.5.3", "vite": "5.3.4" } }],
+
     "base3dmulti-server": ["base3dmulti-server@workspace:packages/server", { "dependencies": { "@types/bun": "^1.1.14", "base3dmulti-shared": "packages/shared", "mitt": "^3.0.1" } }],
 
     "base3dmulti-shared": ["base3dmulti-shared@workspace:packages/shared", { "dependencies": { "@types/bun": "^1.1.14" } }],
@@ -166,8 +168,6 @@
     "binary-extensions": ["binary-extensions@2.3.0", "", {}, "sha512-Ceh+7ox5qe7LJuLHoY0feh3pHuUDHAcRUeyL2VYghZwfpkNIy/+8Ocg0a3UuSoYzavmylwuLWQOf3hl0jjMMIw=="],
 
     "braces": ["braces@3.0.3", "", { "dependencies": { "fill-range": "^7.1.1" } }, "sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA=="],
-
-    "bun-mmo-client": ["bun-mmo-client@workspace:packages/client", { "dependencies": { "@babylonjs/core": "7.40.4", "@babylonjs/inspector": "7.40.4", "@babylonjs/loaders": "7.40.4", "base3dmulti-shared": "packages/shared", "eventemitter3": "^5.0.1", "mitt": "^3.0.1" }, "devDependencies": { "sass": "1.64.1", "typescript": "5.5.3", "vite": "5.3.4" } }],
 
     "bun-types": ["bun-types@1.1.37", "", { "dependencies": { "@types/node": "~20.12.8", "@types/ws": "~8.5.10" } }, "sha512-C65lv6eBr3LPJWFZ2gswyrGZ82ljnH8flVE03xeXxKhi2ZGtFiO4isRKTKnitbSqtRAcaqYSR6djt1whI66AbA=="],
 
